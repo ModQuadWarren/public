@@ -41,7 +41,7 @@ if ($parsedApps.Count -gt 0) {
 }
 
 # Prompt user before proceeding
-$proceed = Read-Host "*WARNING: if app ID dokan-dev.Dokany is an option, that shit will fail every time. Call Microsoft ;)
+$proceed = Read-Host "*WARNING: if app id Microsoft.VCRedist.xxxx.xxx is an option, that shit will fail every time. Call Microsoft ;)
 Do you want to update all apps? (Y/N)"
 if ($proceed -notmatch "^[Yy]$") {
     Write-Host "Welp, my work is done here. Byeeee!!!" -ForegroundColor Red
